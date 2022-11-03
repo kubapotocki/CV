@@ -1,0 +1,176 @@
+body{
+    background-color: rgb(197, 232, 242);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px 0px;
+}
+
+img.zdjecie{
+    width: 150px;
+    height: 150px;
+}
+
+header address img{
+    width: 40px;
+    height: 40px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+section{
+    padding:10px 60px 20px 60px;
+}
+
+header{
+    padding:10px 60px 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.mnie,section.zawodowe,section.jez,section.zwod,header{
+    width: 960px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 10px 20px;
+} 
+
+h2.cos{
+    padding-top: 20px;
+    width: 960px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+img.Zainteresowania{
+   padding-right: 10px; 
+   vertical-align: middle;
+}
+
+.hobby{
+    padding: 0px;
+}
+
+a.przycisk{
+    border: 2px solid cornflowerblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+a.przycisk:hover{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+a.przycisk:focus{
+    outline: none;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+a.technikum19{
+    text-decoration-line: none;
+    color: cornflowerblue;
+}
+
+a.technikum19:hover{
+    text-decoration-line: underline;
+}
+
+a.instagram{
+    text-decoration-line: none;
+    color: black;
+    border: 2px solid rgb(225, 48, 108);
+    border-radius: 25px;
+    padding:10px 20px;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+
+a.instagram:hover{
+    color:white;
+    background-color: rgb(225, 48, 108);
+}
+
+a.instagram:focus{
+    outline: none;
+    color: white;
+    background-color: rgb(225, 48, 108);
+}
+
+.naglowek{
+    margin-left: 20px;
+}
+
+div.omnie{
+    transition: 0.5s;
+}
+div.omnie:hover{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.doswiadczenie{
+    transition: 0.5s;
+}
+
+div.doswiadczenie:hover{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.jezyki{
+    transition: 0.5s;
+}
+
+div.jezyki:hover{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.wyksztalcenie{
+    transition: 0.5s;
+}
+
+div.wyksztalcenie:hover{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.ciekawostki{
+    transition: 0.5s;
+}
+
+div.ciekawostki:hover{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+section.calezainteresowanie{
+    width: 960px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 10px 20px;
+}
+
+section.zaint{
+    display: flex;
+}
+
+section.zaint{
+    padding-top: 30px;
+    padding-inline: 6px; 
+    justify-content: space-between;
+}
